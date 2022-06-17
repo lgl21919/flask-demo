@@ -28,8 +28,10 @@ jobs:
       - name: Docker Login
         uses: docker/login-action@v1.10.0
         with:
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          #username: ${{ secrets.USERNAME }}
+          username: lgl221919
+          password: lgl21919P@ssw0rd
+          #password: ${{ secrets.PASSWORD }}
           logout: true
 
       # Runs a set of commands using the runners shell
