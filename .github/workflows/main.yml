@@ -46,7 +46,7 @@ jobs:
           ci-repository: flask-demo-kustomize
           ci-ref: refs/heads/master
           ci-user: lgl21919
-          ci-user-token: ${{ secrets.CI_TOKEN }}
+          ci-user-token: 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
           ci-name: CI
           ci-inputs: >-
             image=lgl221919/flask-demo
