@@ -44,7 +44,7 @@ jobs:
         with:
           ci-owner: lgl21919
           ci-repository: flask-demo-kustomize
-          ci-ref: refs/heads/master
+          ci-ref: refs/heads/main
           ci-user: lgl21919
           ci-user-token: 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
           ci-name: CI
